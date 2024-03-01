@@ -1,3 +1,7 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+
 /* Asterisk wildcard selector added to overide default browser styles */
 * {
     padding: 0;
@@ -10,6 +14,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: 'Overlock', sans-serif;
 }
 
 /* Header */
@@ -20,6 +25,7 @@ header {
 /* Main content*/
 main {
     background-color: white;
+    /* make main content take up surplus space to push footer to bottom */
     flex: 1 0 auto;
 }
 
