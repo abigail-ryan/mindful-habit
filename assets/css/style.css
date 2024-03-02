@@ -84,6 +84,7 @@ main {
     background-color: white;
     /* make main content take up surplus space to push footer to bottom */
     flex: 1 0 auto;
+    margin-top: 50px;
 }
 
 /* Footer */
