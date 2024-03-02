@@ -20,11 +20,14 @@ body {
 /* Header */
 header {
     background-color: rgb(251, 184, 15);
-    padding: 0 1rem;
+    padding: 0.5rem 1rem ;
     z-index: 100;
     width: 100%;
     position: fixed;
     box-shadow: 0 0.3em 0.3em rgba(236, 173, 14, 0.75);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -49,6 +52,31 @@ h1 {
 
 .active-page {
     border-bottom: 1px solid white;
+}
+
+/* Navigation menu styles */
+nav {
+    position: absolute;
+    background-color: rgb(251, 184, 15);
+    width: 100%;
+    left: 0;
+    padding-left: 1rem;
+    box-shadow: 0 0.3em 0.3em rgba(236, 173, 14, 0.75);
+    display: none;
+    top: 100%;
+}
+
+/* Menu Toggle */
+#menu-toggle:checked~nav {
+    display: block;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.menu-toggle-label {
+    font-size: 1.5rem;
 }
 
 /* Main content*/
