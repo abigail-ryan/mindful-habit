@@ -38,6 +38,7 @@ header a {
 h1 {
     font-family: 'Lato', sans-serif;
     font-style: italic;
+    
 }
 
 #menu {
@@ -112,4 +113,43 @@ footer p {
     font-size: 110%;
     text-align: center;
     color: white;
+}
+
+/* Media query for tablet and larger screens */
+@media screen and (min-width: 768px) {
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .menu-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 250%;
+        margin: 0.5rem 0.5rem;
+    }
+
+    main {
+        /* Push main content down so its visible under the header */
+        margin-top: 85px;
+    }
+}
+
+/* Media query for laptops (screens larger than 992px) */
+@media screen and (min-width: 992px) {
+    #menu a;hover {
+        border-bottom: 1px solid white;
+    }
 }
