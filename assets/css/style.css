@@ -19,12 +19,12 @@ body {
 
 /* Header */
 header {
-    background-color: rgb(251, 184, 15);
+    background-color: #7f4aa4;
     padding: 0.5rem 1rem ;
     z-index: 100;
     width: 100%;
     position: fixed;
-    box-shadow: 0 0.3em 0.3em rgba(236, 173, 14, 0.75);
+    box-shadow: 0 0.3em 0.3em rgba(156, 94, 201, 0.75);
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -54,14 +54,18 @@ h1 {
     border-bottom: 1px solid white;
 }
 
+i {
+    color: white;
+}
+
 /* Navigation menu styles */
 nav {
     position: absolute;
-    background-color: rgb(251, 184, 15);
+    background-color: #7f4aa4;
     width: 100%;
     left: 0;
     padding-left: 1rem;
-    box-shadow: 0 0.3em 0.3em rgba(236, 173, 14, 0.75);
+    box-shadow: 0 0.3em 0.3em rgba(156, 94, 201, 0.75);
     display: none;
     top: 100%;
 }
@@ -89,5 +93,23 @@ main {
 
 /* Footer */
 footer {
-    background-color: rgb(251, 184, 15);
+    background-color: #7f4aa4;
+}
+
+#social-links {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-links i {
+    font-size: 150%;
+    padding: 10%;
+}
+footer p {
+    font-size: 110%;
+    text-align: center;
+    color: white;
 }
