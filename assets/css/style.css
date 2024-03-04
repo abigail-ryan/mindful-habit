@@ -144,6 +144,7 @@ main {
 }
 
 
+
 /* Footer */
 footer {
     background-color: #7f4aa4;
@@ -216,4 +217,10 @@ footer p {
     .hero-text-container {
         margin-left: 150px;
     }
+}
+
+@media screen and (min-width: 1440px) {
+    .hero-text-container {
+        margin-left: 350px;
+}
 }
