@@ -92,6 +92,57 @@ main {
     margin-top: 50px;
 }
 
+/* Hero section */
+.hero-block {
+    position: relative;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: gray;
+    overflow: hidden;
+    position: relative; 
+}
+
+.hero-text-container { 
+    background-color: rgba(252, 252, 252, 0.65);
+    padding: 0 12% 4% 12%; 
+    z-index: 2;
+    position: absolute;
+    bottom: 20px;
+    margin: 0 20px;
+}
+
+.hero-bg-media {
+    position: absolute; top: 0; right: 0; bottom: 0; left: 0; 
+    z-index: 0;
+}
+
+.hero-bg-media * {
+    object-fit: cover; 
+    width: 100%; 
+    height: 100%;
+}
+
+.hero-block h2 {
+    font-size: 150%;
+    /* font-size:; */
+    color: #7f4aa4;
+    margin-top: 15px;
+    margin-bottom: 24px;
+    font-family: 'Overlock', sans-serif;
+    font-style: italic;
+}
+
+.hero-block h3 {
+    font-size: 130%;
+    color: #7f4aa4;
+    text-transform: uppercase;
+    font-family: 'Overlock', sans-serif;
+    font-style: italic;
+}
+
+
 /* Footer */
 footer {
     background-color: #7f4aa4;
@@ -144,6 +195,10 @@ footer p {
     main {
         /* Push main content down so its visible under the header */
         margin-top: 85px;
+    }
+
+    .hero-block { 
+        height: 80vh; 
     }
 }
 

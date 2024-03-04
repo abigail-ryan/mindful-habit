@@ -15,6 +15,10 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Hero video -->
+    <link rel="preload" href="assets/media/hero-image-candles.jpg" as="image">
+
+
 
 </head>
 
@@ -22,7 +26,7 @@
     <!-- Header -->
     <header>
         <a href="index.html">
-            <h1 id="logo">Mindful Habit</i></h1>
+            <h1 id="logo"><i class="fa-solid fa-spa"></i> Mindful Habit</i></h1>
         </a>
         <input type="checkbox" id="menu-toggle" name="menu-toggle">
         <label for="menu-toggle" class="menu-toggle-label"><i class="fa-solid fa-bars"></i></label>
@@ -38,7 +42,21 @@
     </header>
 
     <!-- Main content -->
-    <main>Main content</main>
+    <main>
+        <!-- Hero block -->
+        <section class="hero-block text-center">
+            <div class="hero-text-container">
+                <h2>“Life is a dance. Mindfulness is witnessing that dance" </h2>
+                <h3> <em>- Amit Ray</em></h3>
+            </div>
+            <div class="hero-bg-media">
+                <video loop playsinline muted autoplay poster="assets/media/hero-image-candles.jpg" class="background-video" disablepictureinpicture preload="auto"> 
+    
+                <source src="assets/media/hero-video-candles.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer>
