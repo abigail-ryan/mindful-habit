@@ -17,6 +17,12 @@ body {
     font-family: 'Overlock', sans-serif;
 }
 
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 180%; 
+}
+
 /* Header */
 header {
     background-color: #7f4aa4;
@@ -152,12 +158,42 @@ main {
 #join-us h2 {
     margin-bottom: 20px;
     text-align: center;
-    font-size: 220%;
+    font-size: 200%;
 }
 
-#join-us p, ul {
+
+#join-us p {
     padding: 0 15px;
 }
+
+#join-us ul {
+    padding: 0 20%;
+}
+
+/* Classes section */
+.practices {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 35px;
+    box-shadow:0 0 0 2px white, 0.3em 0.3em 1em 0.3em rgb(251 184 15/ 60%);
+}
+img {
+    max-width: 100%;
+    max-height: 100%px;
+    padding: 0 20px;
+}
+
+.class-info {
+    padding-left: 20px;
+}
+
+.class-time {
+    padding-left: 20px;
+}
+
+
 
 
 
