@@ -143,6 +143,22 @@ main {
     font-style: italic;
 }
 
+/* Join us section */
+#join-us {
+    width: 80%;
+    margin: 20px auto;
+}
+
+#join-us h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 220%;
+}
+
+#join-us p, ul {
+    padding: 0 15px;
+}
+
 
 
 /* Footer */
