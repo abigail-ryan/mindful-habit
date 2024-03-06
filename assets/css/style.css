@@ -294,6 +294,26 @@ footer p {
         margin: 20px 20px 50px 20px;
     }
 
+    #breathwork, #meditation {
+        display: flex;
+        flex-direction: row-reverse;
+        
+    }
+
+    /* Flex reordering for breathwork & meditation classes */
+    #a {
+        order: 1;
+    }
+
+    #b {
+        order: 3;
+    }
+
+    #c {
+        order: 2;
+    }
+    
+
     .class-info {
         max-width: 250px;
     }
