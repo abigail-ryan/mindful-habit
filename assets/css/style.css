@@ -156,6 +156,11 @@ main {
     margin: 20px auto;
 }
 
+#join-us-text {
+    box-shadow: 0 0 0 2px white,
+   -0.3em 0.3em 1em 0.3em rgb(127 74 164/ 60%);
+}
+
 #join-us h2 {
     margin-bottom: 20px;
     text-align: center;
@@ -218,6 +223,29 @@ img {
     color: #7f4aa4;
 }
 
+/* CTA book now section */
+#cta-section {
+    text-align: center;
+    padding: 10px 0 50px;
+}
+
+#cta-section button {
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(127, 74, 164, .60);
+    box-shadow: 0 0 0 2px white, 0.3em 0.3em 1em 0.3em rgba(251 184 15/ 60%);
+    color: black;
+    font-size: 100%;
+    font-weight: 700;
+    margin-top: 15px;
+    padding: 15px 30px;
+}
+
+#cta-section button:hover {
+    background-color: rgb(127, 74, 164);
+    box-shadow: 0 0 0 2px white, 0.3em 0.3em 1em 0.3em rgba(255, 185, 8, 0.75);
+    color: white;
+}
 
 
 
@@ -242,6 +270,7 @@ footer p {
     font-size: 110%;
     text-align: center;
     color: white;
+    padding-bottom: 15px;
 }
 
 /* Media query for tablet and larger screens */
