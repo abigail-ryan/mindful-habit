@@ -178,7 +178,6 @@ main {
     align-items: center;
     justify-content: center;
     margin: 10px 12px 50px 12px;
-    /* box-shadow:0 0 0 2px white, 0.3em 0.3em 1em 0.1em rgb(251 184 15/ 60%); */
 }
 
 #journaling, #yoga {
@@ -218,6 +217,10 @@ img {
 .contact i {
     color: #7f4aa4;
 }
+
+/* CTA book now */
+button
+
 
 /* Footer */
 footer {
