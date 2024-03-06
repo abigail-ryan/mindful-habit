@@ -17,11 +17,11 @@ body {
     font-family: 'Overlock', sans-serif;
 }
 
-/* h2 {
+section > h2 {
     margin-bottom: 20px;
     text-align: center;
     font-size: 180%; 
-} */
+}
 
 /* Header */
 header {
@@ -205,9 +205,18 @@ img {
     padding: 0 10px 10px;
 }
 
+/* Contact us section */
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 120%;
+}
 
-
-
+.contact i {
+    color: #7f4aa4;
+}
 
 /* Footer */
 footer {
@@ -284,6 +293,17 @@ footer p {
 
     .class-info {
         max-width: 250px;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        font-size: 120%;
+        margin-bottom: 15px;
+        
     }
 }
 
