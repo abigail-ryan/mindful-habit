@@ -182,7 +182,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 10px 12px 50px 12px;
+    margin: 10px 15px 40px 15px;
 }
 
 #journaling, #yoga {
@@ -198,6 +198,7 @@ img {
     max-height: 100%px;
     padding: 0 20px;
     object-fit: cover;
+    margin-top: 10px;
 }
 
 .class-info {
