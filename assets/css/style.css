@@ -229,7 +229,7 @@ img {
     padding: 10px 0 50px;
 }
 
-#cta-section button {
+#cta-section button{
     border-radius: 8px;
     border: none;
     background-color: rgba(127, 74, 164, .60);
@@ -246,6 +246,60 @@ img {
     box-shadow: 0 0 0 2px white, 0.3em 0.3em 1em 0.3em rgba(255, 185, 8, 0.75);
     color: white;
 }
+
+/* Gallery */
+
+/* Booking form */
+#bookings {
+    background-image: url(../media/booking-form-background.jpg);
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10px 0 10px;
+}
+
+#booking-form {
+    color: white;
+    background-color: rgba(127, 74, 164, .45);
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+#booking-form > h2, h3 {
+    margin: 20px;
+}
+
+.text-input {
+    background:rgba(255, 255, 255, .35);
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid rgb(251, 184, 15);
+    border-radius: 8px;
+    padding: 0 5px;
+}
+
+.radio-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.book-now-button {
+    margin-top: 25px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(127, 74, 164, .60);
+    box-shadow: 0 0 0 2px white, 0.3em 0.3em 1em 0.3em rgba(251 184 15/ 60%);
+    color: white;
+    font-size: 100%;
+    font-weight: 700;
+    padding: 15px 30px;
+    text-align: center;
+    margin-left: 33px;
+}
+
 
 
 
@@ -357,6 +411,28 @@ footer p {
         margin-bottom: 15px;
         
     }
+
+    /* Booking form */
+    #bookings {
+        background-position: center;
+        position: relative;
+    }
+
+    #booking-form {
+        max-width: 400px;
+        left: 90%;
+        top: 140px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+    
+    .book-now-button:hover {
+        background-color: rgb(127, 74, 164);
+        box-shadow: 0 0 0 2px white, 0.3em 0.3em 1em 0.3em rgba(255, 185, 8, 0.75);
+        color: white;
+    }
+
 }
 
 /* Media query for laptops (screens larger than 992px) */
@@ -399,6 +475,10 @@ footer p {
     #a, #b, #c {
         order: 0;
     }
+
+    #booking-form {
+        margin-left: 60px;
+    }
 }
 
 /* Media query for desktop screens larger than 1440px */
@@ -426,5 +506,9 @@ img {
 
 .class-info {
     max-width: 450px;
+}
+
+#booking-form {
+    margin-left: 100px;
 }
 }
