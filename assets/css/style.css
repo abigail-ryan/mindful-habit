@@ -283,7 +283,7 @@ img {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 15px 25px;
 }
 
 .book-now-button {
@@ -297,7 +297,7 @@ img {
     font-weight: 700;
     padding: 15px 30px;
     text-align: center;
-    margin-left: 33px;
+    align-items: center;
 }
 
 
@@ -419,14 +419,17 @@ footer p {
     }
 
     #booking-form {
-        max-width: 400px;
+        max-width: 420px;
         left: 90%;
         top: 140px;
         margin-bottom: 20px;
         margin-left: 20px;
     }
 
-    
+    .radio-buttons {
+        gap: 15px 15px;
+    }
+
     .book-now-button:hover {
         background-color: rgb(127, 74, 164);
         box-shadow: 0 0 0 2px white, 0.3em 0.3em 1em 0.3em rgba(255, 185, 8, 0.75);
