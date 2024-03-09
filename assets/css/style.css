@@ -249,6 +249,25 @@ img {
 }
 
 /* Gallery */
+#gallery > ul {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#gallery > li {
+    height: 40vh;
+    flex-grow: 1;
+    line-height: 0;
+}
+
+#gallery > img {
+    max-height: 100%;
+    width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+
 
 /* Booking form */
 #bookings {
