@@ -157,6 +157,9 @@ main {
 }
 
 #join-us-text {
+    font-size: 120%;
+    text-align: center;
+    padding: 10px 0;
     box-shadow: 0 0 0 2px white,
    -0.3em 0.3em 1em 0.3em rgb(127 74 164/ 60%);
 }
@@ -173,7 +176,16 @@ main {
 }
 
 #join-us ul {
-    padding: 0 20%;
+    padding: 0 10%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px;
+    justify-content: center;
+    color: #7f4aa4;
+    font-weight: 750;
 }
 
 /* Classes section */
@@ -391,6 +403,11 @@ footer p {
 
     .hero-text-container {
         margin-left:60px;
+    }
+
+    #join-us ul {
+        gap: 10px 20px;
+        margin: 10px;
     }
 
     .classes > img {
