@@ -279,6 +279,11 @@ img {
     
 }
 
+/* Gallery h2 is hidden on all devices */
+#gallery h2 {
+    display: none;
+}
+
 
 /* Booking form */
 #bookings {
