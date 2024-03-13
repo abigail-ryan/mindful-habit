@@ -198,11 +198,11 @@ main {
 }
 
 #journaling, #yoga {
-    box-shadow:0 0 0 2px white, 0.3em 0.3em 1em 0.1em rgb(251 184 15/ 60%);
+    box-shadow:0 0 0 2px white, 0.3em 0.3em 1em 0.1em rgb(251 184 15/ 85%);
 }
 
 #breathwork, #meditation {
-    box-shadow:0 0 0 2px white, -0.3em 0.3em 1em 0.1em rgb(251 184 15/ 60%);
+    box-shadow:0 0 0 2px white, -0.3em 0.3em 1em 0.1em rgb(251 184 15/ 85%);
 }
 
 img {
@@ -245,9 +245,9 @@ img {
 #cta-section button{
     border-radius: 8px;
     border: none;
-    background-color: rgba(127, 74, 164, .60);
-    box-shadow: 0 0 0 2px white, 0.3em 0.3em 1em 0.3em rgba(251 184 15/ 60%);
-    color: black;
+    background-color: rgba(127, 74, 164, .80);
+    box-shadow: 0 0 0 2px white, 0.3em 0.3em 1em 0.3em rgba(251 184 15/ 85%);
+    color: white;
     font-size: 100%;
     font-weight: 700;
     margin-top: 15px;
