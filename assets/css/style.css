@@ -242,7 +242,7 @@ img {
     padding: 10px 0 50px;
 }
 
-#cta-section button{
+.cta-button{
     border-radius: 8px;
     border: none;
     background-color: rgba(127, 74, 164, .80);
@@ -250,7 +250,7 @@ img {
     color: white;
     font-size: 100%;
     font-weight: 700;
-    margin-top: 15px;
+    margin-top: 30px;
     padding: 15px 30px;
 }
 
