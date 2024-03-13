@@ -113,7 +113,7 @@ main {
 
 .hero-text-container { 
     background-color: rgba(252, 252, 252, 0.65);
-    padding: 0 12% 4% 12%; 
+    padding: 6px 15px; 
     z-index: 2;
     position: absolute;
     bottom: 20px;
@@ -140,6 +140,7 @@ main {
     margin-bottom: 20px;
     font-family: 'Overlock', sans-serif;
     font-style: italic;
+    text-align: center;
 }
 
 .hero-block h3 {
@@ -148,6 +149,8 @@ main {
     text-transform: uppercase;
     font-family: 'Overlock', sans-serif;
     font-style: italic;
+    text-align: right;
+    margin-bottom: 10px;
 }
 
 /* Join us section */
@@ -409,7 +412,7 @@ footer p {
     }
 
     .hero-text-container {
-        margin-left:60px;
+        align-self: center;
     }
 
     #join-us ul {
