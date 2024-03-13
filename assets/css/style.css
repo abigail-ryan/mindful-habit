@@ -245,16 +245,17 @@ img {
 .cta-button{
     border-radius: 8px;
     border: none;
-    background-color: rgba(127, 74, 164, .80);
-    box-shadow: 0 0 0 2px white, 0.3em 0.3em 1em 0.3em rgba(251 184 15/ 75%);
+    background-color: rgba(127, 74, 164, .90);
+    box-shadow: 0 0 0 2px white, 0.3em 0.3em 1em 0.3em rgba(251 184 15/ 70%);
     color: white;
     font-size: 100%;
     font-weight: 700;
+    text-decoration: none;
     margin-top: 30px;
     padding: 15px 30px;
 }
 
-#cta-section button:hover {
+.cta-button:hover {
     background-color: rgb(127, 74, 164);
     box-shadow: 0 0 0 2px white, 0.3em 0.3em 1em 0.3em rgba(255, 185, 8, 0.95);
     color: white;
