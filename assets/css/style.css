@@ -429,15 +429,15 @@ footer p {
     }
 
     /* Flex reordering for breathwork & meditation classes */
-    #a {
+    .a {
         order: 1;
     }
 
-    #b {
+    .b {
         order: 3;
     }
 
-    #c {
+    .c {
         order: 2;
     }
     
