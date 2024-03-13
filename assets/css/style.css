@@ -497,7 +497,9 @@ footer p {
     }
 
     .hero-text-container {
-        margin-left: 150px;
+        max-width: 750px;
+        max-height: 150px;
+        align-self: center;
     }
 
     img {
@@ -544,7 +546,9 @@ footer p {
 /* Media query for desktop screens larger than 1440px */
 @media screen and (min-width: 1440px) {
     .hero-text-container {
-        margin-left: 350px;
+        max-width: 750px;
+        max-height: 150px;
+        align-self: center;
 }
 
 img {
