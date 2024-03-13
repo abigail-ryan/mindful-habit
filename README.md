@@ -8,7 +8,7 @@ Users of this site can access all the information they need to know about Mindfu
 
 ## Contents
 * [User Stories](#user-stories)
-* [Primary Goal](#primary-goal)
+* [Primary Goal](primary-goal)
 * [Visitor Goals](#visitor-goals)
 * [New User](#new-user)
 * [Return Visitor](#return-visitor)
