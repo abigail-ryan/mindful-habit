@@ -246,7 +246,7 @@ img {
     border-radius: 8px;
     border: none;
     background-color: rgba(127, 74, 164, .80);
-    box-shadow: 0 0 0 2px white, 0.3em 0.3em 1em 0.3em rgba(251 184 15/ 85%);
+    box-shadow: 0 0 0 2px white, 0.3em 0.3em 1em 0.3em rgba(251 184 15/ 75%);
     color: white;
     font-size: 100%;
     font-weight: 700;
@@ -256,7 +256,7 @@ img {
 
 #cta-section button:hover {
     background-color: rgb(127, 74, 164);
-    box-shadow: 0 0 0 2px white, 0.3em 0.3em 1em 0.3em rgba(255, 185, 8, 0.75);
+    box-shadow: 0 0 0 2px white, 0.3em 0.3em 1em 0.3em rgba(255, 185, 8, 0.95);
     color: white;
 }
 
@@ -482,6 +482,10 @@ footer p {
     #gallery-photos {
         column-count: 2;
         column-gap: 0;
+    }
+
+    iframe {
+        width: 230px;
     }
 
 }
