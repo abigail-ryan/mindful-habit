@@ -318,4 +318,78 @@ GitHub was used to deploy the Mindful Habit website.
 6.	Select 'root' from the drop-down folder menu
 7.	Click 'Save' and after a few minutes the project will be live and a link will be visible at the top of the page
 
+### Testing
+#### Manual Testing
+I had planned for Mindful Habit to be accessible on all screen sizes. The user is viewing Mindful Habit primarily for the classes information and booking form, and this needed to be easily accessed. I used Chrome Dev Tools to view Mindful Habit on various screen sizes through my entire project. 
+The browsers used were:
+*	Chrome
+*	Opera
+*	Microsoft Edge
+*	Safari
 
+I deployed my site early in the development process to test on real-world devices and continued testing throughout. These devices user were:
+* Acer Aspire F 15 Laptop
+*	Realme 11 Pro+ phone
+*	Huawei P20 Pro phone
+*	Apple iPad 2018
+
+
+The results of feature testing are as follows:
+| Page | Test | Pass/Fail |
+| ---| ---| ---|
+| All | Mindful Habit logo returns user to homepage | Pass |
+| All | Underline appears under navigation menu to show the active page| Pass |
+| All | Navigation links bring the user to relevant page | Pass |
+| All | Menu items are clear and legible | Pass |
+| All | Google Map opens in a new tab | Pass |
+| All | Footer social media icons bring the user to relevant sites via a new tab | Pass |
+| Index | Hero video plays in a loop | Pass |
+| Index | Classes section is responsive in different screen sizes | Pass |
+| Index | CTA ‘Book now’ button changes when hovered over with mouse | Pass |
+| Index | CTA ‘Book now’ button under classes links to bookings page  | Pass |
+| Gallery | Gallery images display in masonry style on larger screens | Pass |
+| Bookings | Contact form input filed are required & validated | Pass |
+| Bookings | Form button changes when hovered over with mouse | Pass |
+| Form | Form submit button brings you to a validation page | Pass |
+
+#### HTML Validation using W3C Validation
+##### Index Page
+**Mindful Habit - Index page HTML validation**
+![Screenshot of w3c validation errors - index page](documentation/w3-validator-index-errors.PNG)
+
+This returned errors with my code where I had an extra icon tag in the header, and I had missed a closing tag on my “a” element for the Home navigation item. Once I fixed these errors, I checked my code for similar errors on my gallery and bookings pages and fixed these before rerunning the process. 
+
+![Screenshot of w3c validation errors - index page](documentation/w3-validator-index-errors-1.PNG)
+![Screenshot of w3c validation errors - index page](documentation/w3-validator-index-errors-2.PNG)
+
+This time there was again some simple errors. I went back to my code and removed the disablepictureinpucture on the video. I changed the error id’s to classes instead and renamed them to make more sense for their use. I removed the button element and added a class, that I applied my original styling to. I fixed the iframe issue on all pages before running the process again.
+
+![Screenshot of w3c validation no errors - index page](documentation/w3-validator-index-no-errors.PNG)
+
+I ran the validator again and it returned no issues.
+
+##### Gallery Page
+**Mindful Habit - Gallery page HTML validation**
+
+![Screenshot of w3c validation errors - gallery page](documentation/w3-validator-gallery-errors.PNG)
+
+When I ran the validator on the Gallery page, it returned a heading issue. As the warning stated I could use a div instead, and I tried this however the issue didn’t resolve. I chose to a heading to the gallery page and set its display to none to fix the issue.  
+
+![Screenshot of w3c validation errors - gallery page](documentation/w3-validator-gallery-no-error.PNG)
+
+I ran the validator again and it returned no issues.
+
+##### Bookings Page
+**Mindful Habit - Bookings page HTML validation**
+
+![Screenshot of w3c validation no errors - booking page](documentation/w3-validator-bookings-no-error.PNG)
+
+There were no issues on the bookings page.
+
+#### CSS Validation using W3C Validation
+**Mindful Habit - CSS validation**
+![Screenshot of w3c validation css errors](documentation/w3-validator-css-errors.PNG)
+
+There was one error found, and it was a simple error that I had a % and px written for an img element height value. This was an easy fix. When I ran validation again it returned no errors.
+
+![Screenshot of w3c validation css no error](documentation/w3-css-no-error.PNG)
