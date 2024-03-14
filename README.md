@@ -393,3 +393,7 @@ There were no issues on the bookings page.
 There was one error found, and it was a simple error that I had a % and px written for an img element height value. This was an easy fix. When I ran validation again it returned no errors.
 
 ![Screenshot of w3c validation css no error](documentation/w3-css-no-error.PNG)
+
+#### Lighthouse scores using Chrome Dev Tools
+##### Desktop
+##### Mobile
