@@ -420,14 +420,16 @@ There was one error found, and it was a simple error that I had a % and px writt
 ### Credits
 #### Content and Code References
 *	All written content on Mindful Habit has been written by me and is purely for educational purposes only. 
-*	GoodReads – for the mindfulness quote.
+*	GoodReads for the mindfulness quote.
 *	Code Institute for the HTML/CSS learning material.
-*	Mullaney.com for the hero video code and sytling
+*	Mullaney.com for the hero video code and sytling.
+* Canva Colours for the color palette inspiration.
 *	Tiny.png for compressing image files.
+* Google fonts for the fonts used in this site.
 *	CSS Tricks for adaptive home screen and gallery layout with flexbox.
-*	MND Web Docs for box shadow styling
+*	MND Web Docs for box shadow styling.
 *	codepen.io for styling a link as a button.
-*	Kera Cudmore - Creating your First README for README content structure and Markdown guidance.
+*	Kera Cudmore - Creating your First README for README content structure and Markdown language guidance.
 
 #### Media References
 *	Pexels for all media used on this site. Credit to the photographers: Bich Tran, Rui Dias, Andrea Piacquadio, Olia Danilevich, Felix Young, Gustavo Fring, Kampus Production, Koolshooters, frstudio, Roma Odinstov.
