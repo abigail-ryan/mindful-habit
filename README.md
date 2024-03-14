@@ -43,7 +43,6 @@ Users of this site can access all the information they need to know about Mindfu
  * [Technologies Used](#technologies-used)
    * [Languages](#languages)
    * [Frameworks, Libraries, Technologies and Programs used](#frameworks-libraries-technologies-and-programs-used)
-* [Deployment](#deployment)
 * [Testing](#testing)
   * [Manual Testing](#manual-testing)
   * [HTML Validation using W3C Validation](#html-validation-using-w3c-validation)
@@ -54,7 +53,10 @@ Users of this site can access all the information they need to know about Mindfu
   * [Lighthouse scores using Chrome Dev Tools](#lighthouse-scores-using-chrome-dev-tools)
     * [Desktop](#desktop) 
     * [Mobile](#mobile)
-   * [Bugs](#bugs) 
+   * [Bugs](#bugs)
+* [Deployment](#deployment) 
+* [Forking the GitHub Repository](#forking-the-github-repository)
+* [Clone the GitHub Repository](#clone-the-github-repository)
 * [Credits](#credits)
   * [Content and Code References](#content-and-code-references)
   * [Media References](#media-references)
@@ -336,18 +338,6 @@ ___
 
 ___
 
-### Deployment
-GitHub was used to deploy the Mindful Habit website. 
-1.	Login to your GitHub account
-2.	Navigate to the project repository, mindful_habit
-3.	Click the Settings button near the top of the page.
-4.	On the left-hand side, click on the Pages button
-5.	In the Source section, choose 'main' from the drop-down, select branch menu
-6.	Select 'root' from the drop-down folder menu
-7.	Click 'Save' and after a few minutes the project will be live and a link will be visible at the top of the page
-
-___
-
 ### Testing
 #### Manual Testing
 I had planned for Mindful Habit to be accessible on all screen sizes. The user is viewing Mindful Habit primarily for the classes information and booking form, and this needed to be easily accessed. I used Chrome Dev Tools to view Mindful Habit on various screen sizes through my entire project. 
@@ -482,6 +472,42 @@ There was one css error found, and it was a simple error that I had a % and px w
 
 ___
 
+### Deployment
+GitHub was used to deploy the Mindful Habit website. 
+1.	Login to your GitHub account
+2.	Navigate to the project repository, [abigail-ryan/mindful-habit](https://github.com/abigail-ryan/mindful-habit)
+3.	Click the Settings button near the top of the page.
+4.	On the left-hand side, click on the Pages button
+5.	In the Source section, choose 'main' from the drop-down, select branch menu
+6.	Select 'root' from the drop-down folder menu
+7.	Click 'Save' and after a few minutes the project will be live and a link will be visible at the top of the page
+
+### Forking the GitHub Repository
+By forking the GitHub repository you can make a copy of the original repository to your own GitHub account. You can view and make changes to this copy, without affecting the original repository.
+Use the following steps to copy a repository:
+1.	Log in to your GitHub account or sign up.
+2.	Navigate to the GitHub Repository of this project, [abigail-ryan/mindful-habit](https://github.com/abigail-ryan/mindful-habit)
+3.	At the top right of the Repository, just below your profile picture, find the "Fork" button.
+4.	You should now have a copy of the original repository in your own GitHub account.
+5.	Changes made to the forked repository can be merged with the original repository via a pull request.
+
+### Clone the GitHub Repository
+You can create a local copy of this repository by cloning a GitHub Repository, on your computer. This will allow local edits, rather than directly in the source files of the original repository, 
+Use following steps to make a clone:
+1.	Log in to your GitHub account or sign up.
+2.	Navigate to the GitHub Repository of this project, [abigail-ryan/mindful-habit](https://github.com/abigail-ryan/mindful-habit)
+3.	Above the list of files, click on the dropdown item called "Code".
+4.	To clone the repository using HTTPS, copy the link under "HTTPS".
+5.	Open Git Bash.
+6.	Change the current working directory to the location where you want the cloned directory to be made.
+7.	Type git clone, and then paste the URL you copied in Step 4.
+8.	Finally, press Enter. Your local clone has now been created.
+
+
+Changes made on the cloned repository can be pushed to the upstream repository directly if you have a write access for the repository. Otherwise, the changes made in the cloned repository are first pushed to the forked repository, and then a pull request is created.
+
+___
+
 ### Credits
 #### Content and Code References
 *	All written content on Mindful Habit has been written by me and is purely for educational purposes only. 
@@ -494,6 +520,7 @@ ___
 *	[CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) for adaptive home screen and gallery layout with flexbox.
 *	[MND Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) for box shadow styling.
 *	[Codepen.io](https://codepen.io/jessica-wilkins/pen/XWNyGBR) for styling a link as a button.
+* [Alice Hiller](https://github.com/alicehillier/rainforest-cafe/#deployment) for the forking and cloning a GitHub repository structure.
 *	[Kera Cudmore - Creating your First README](https://github.com/kera-cudmore/readme-examples) for README content structure and Markdown language guidance.
 
 #### Media References
