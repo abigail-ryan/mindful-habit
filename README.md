@@ -125,8 +125,8 @@ Mindful Habit welcomes women of all ages to join classes, so a clutter free and 
 
 * The original navigation menu was to include links to the Classes and Contact sections of the home page, however, I chose to remove these as they do not have their own pages, and to make the menu more clear. 
 * The classes information is to be displayed in separate tiles, in vertical rows on mobile devices, and horizontal rows on tablet and desktop devices, each separated by a border.
-* A clear call to action button to bring the user to the booking form would be placed directly below the Classes section, and in colours similar to the site colours.
-* The buttons on the site must provide feedback to the user, in the form of a colour change that followed the flow of the overall aesthetic.
+* A clear call to action button to bring the user to the booking form would be placed directly below the Classes section, and in the site colours.
+* The buttons on the site must provide feedback to the user, in the form of a colour change on hover and click, that follows the flow of the overall aesthetic.
 * The navigation bar must scroll with the page on all devices, so that users can easily navigate to another page without having to scroll to the top to find the menu. This will be the same on all pages, across all devices.
 * The contact information and footer would be visible on every page, at every device size. 
 
@@ -172,7 +172,7 @@ ___
 ### Design
 #### Color Scheme
 
-The idea that Mindful Habit would instil a sense of peace and calm within the users of the site was an important aspect when choosing a colour palette. My colour scheme was inspired by sunsets, and the contrast between the dark blue-purple tones and bright orange and yellows all blending together in the sky, capturing our attention for those few moments. I researched the theory of colour and the psychological effects on emotions, and found information on Very Well Mind referencing a study from 2020 that showed the emotional associations with certain colours.
+The idea that Mindful Habit would instil a sense of peace and calm within the users of the site was an important aspect when choosing a colour palette. My colour scheme was inspired by sunsets, and the contrast between the dark blue-purple tones and bright orange and yellows all blending together in the sky, capturing our attention for those few moments. I researched the theory of colour and the psychological effects on emotions, and found information on 'Very Well Mind' referencing a study from 2020 that showed the emotional associations with certain colours.
 
 ![Screenshot of Very Well Mind site - psychology of colour](documentation/phychology_of_color.png)
 
@@ -184,7 +184,7 @@ I chose to use Amber & Purple, as these were the strongest colours, and I paired
 
 ![Screenshot of Mindful Habit color palette](documentation/Mindful_Habit_Colour_Palette.png)
 
-I originally chose Amber as my primary colour, and applied it to my design within Uizard after creating my wireframes. However I quickly realised there would be accessibility issues due to the contrast of the Amber background colour and White text. I chose to change to Purple as my primary colour instead and use Amber as my secondary colour for different elements throughout the site.
+I originally chose Amber as my primary colour, and applied it to my design within Uizard after creating my wireframes. However I quickly realised there would be accessibility issues due to the lack of contrast between the Amber background colour and White text. I chose to change to Purple as my primary colour instead and use Amber as my secondary colour for different elements throughout the site.
 
 ![Screenshot of design test with color scheme implemented](documentation/MH_color_palette_test.png)
 
@@ -238,7 +238,7 @@ To ensure my site was responsive, I used Flexbox in my CSS styling for my Classe
 
 ![Screenshot of desktop CTA section](documentation/desktop-cta.PNG)
 
-The call to action section remains the same across all devices, with the headings and button centred. The button is styled in the primary colour with a box shadow of the secondary colour to emphasize it an encourage users to book.
+The call to action section remains the same across all devices, with the headings and button centred. The button is styled in the primary colour with a box shadow of the secondary colour to emphasize it and encourage users to book.
 
 ##### Contact Information
 
@@ -264,7 +264,7 @@ The booking form is placed to the left of the image to allow the sun to be a sub
 ![Screenshot of desktop footer](documentation/desktop-footer.PNG)
 
 
-The footer remains the same across all devices. It contains social media links for users to follow Mindful Habit’s social media accounts, and short paragraph, 2024 Mindful Habit, underneath.
+The footer remains the same across all devices. It contains social media links for users to follow Mindful Habit’s social media accounts, and a short piece of text, 2024 Mindful Habit, underneath.
 
 #### Tablet and Mobile View
 
@@ -290,7 +290,7 @@ ___
 
 For future development I would like to add:
 * A block-booking feature on the booking from page for frequent class attendees/members to be able to block-book classes ahead of time, rather than having to return to the site every day/week to book onto a class. I would like to include a payment gateway also.
-An account login feature where members can view a history of their bookings and their upcoming classes.
+* An account login feature where members can view a history of their bookings and their upcoming classes.
 * I would like to add a blog which features “This month’s favourites” – a selection of books and podcasts, that have inspired Mindful Habit each month.
 * A review section displaying previous class attendees’ testimonials on the effectiveness of Mindful Habit’s classes and techniques, which will help encourage future site visitors to book a class.
 * A newsletter sign-up section, inviting users to sign up to receive the “This month’s favourites” blog directly to their emails.
@@ -307,7 +307,7 @@ ___
 *	Git - used for version control
 *	GitHub - used to save and store all files for this website
 *	Google Fonts – used to import fonts for this site
-*	Font Awesome -all icons used in this site icons were downloaded from here
+*	Font Awesome - all icons used in this site icons were downloaded from here
 *	Canva Colour – used for colour palette inspiration
 *	Favicon.io – for the through bubble favicon
 *	Tiny PNG - used to compress images
@@ -368,12 +368,12 @@ The results of feature testing are as follows:
 **Mindful Habit - Index page HTML validation**
 ![Screenshot of w3c validation errors - index page](documentation/w3-validator-index-errors.PNG)
 
-This returned errors with my code where I had an extra icon tag in the header, and I had missed a closing tag on my “a” element for the Home navigation item. Once I fixed these errors, I checked my code for similar errors on my gallery and bookings pages and fixed these before rerunning the process. 
+This returned errors with my code where I had an extra icon tag in the header, and I had missed a closing tag on my a element for the Home navigation item. Once I fixed these errors, I checked my code for similar errors on my gallery and bookings pages and fixed these before rerunning the process. 
 
 ![Screenshot of w3c validation errors - index page](documentation/w3-validator-index-errors-1.PNG)
 ![Screenshot of w3c validation errors - index page](documentation/w3-validator-index-errors-2.PNG)
 
-This time there was again some simple errors. I went back to my code and removed the disablepictureinpucture on the video. I changed the error id’s to classes instead and renamed them to make more sense for their use. I removed the button element and added a class, that I applied my original styling to. I fixed the iframe issue on all pages before running the process again.
+This time there was again some simple errors. I went back to my code and removed the disablepictureinpucture attribute on the video. I changed the error id’s to classes instead and renamed them to make more sense for their use. I removed the button element and added a class, that I applied my original styling to. I fixed the iframe issue on all pages before running the process again.
 
 ![Screenshot of w3c validation no errors - index page](documentation/w3-validator-index-no-errors.PNG)
 
@@ -384,7 +384,7 @@ I ran the validator again and it returned no issues.
 
 ![Screenshot of w3c validation errors - gallery page](documentation/w3-validator-gallery-errors.PNG)
 
-When I ran the validator on the Gallery page, it returned a heading issue. As the warning stated I could use a div instead, and I tried this however the issue didn’t resolve. I chose to a heading to the gallery page and set its display to none to fix the issue.  
+When I ran the validator on the Gallery page, it returned a heading issue. As the warning stated I could use a div instead, and I tried this however the issue didn’t resolve. I chose to add a heading to the gallery page and set its display to none to fix the issue.  
 
 ![Screenshot of w3c validation errors - gallery page](documentation/w3-validator-gallery-no-error.PNG)
 
@@ -401,7 +401,7 @@ There were no issues on the bookings page.
 **Mindful Habit - CSS validation**
 ![Screenshot of w3c validation css errors](documentation/w3-validator-css-errors.PNG)
 
-There was one error found, and it was a simple error that I had a % and px written for an img element height value. This was an easy fix. When I ran validation again it returned no errors.
+There was one css error found, and it was a simple error that I had a % and px written for an img element height value. This was an easy fix. When I ran validation again it returned no errors.
 
 ![Screenshot of w3c validation css no error](documentation/w3-css-no-error.PNG)
 
@@ -434,6 +434,7 @@ There was one error found, and it was a simple error that I had a % and px writt
 
 #### Bugs 
 * Upon removing the "disablepictureinpicture" atribute on my hero video, this causes the video to be able to be clickable and viewed in a pop out on some larger screen sizes. While removing this attribute means my code shows no errors, this is not how I would like for my video to display. The validation error stated that "the attribute could not be allowed on the element at this point". It may be a case that this code is unsupported at this time in my document.
+* My hero video is causing some small delay issues in the mobile view when loading. I uploaded a smaller sized file to try fix the issue, however the lighthouse score does not imrpove much. It may be an issue with the lenght of the video, which for future projects I will take into account.
 
 ___
 
