@@ -54,6 +54,7 @@ Users of this site can access all the information they need to know about Mindfu
   * [Lighthouse scores using Chrome Dev Tools](#lighthouse-scores-using-chrome-dev-tools)
     * [Desktop](#desktop) 
     * [Mobile](#mobile)
+   * [Bugs](#bugs) 
 * [Credits](#credits)
   * [Content and Code References](#content-and-code-references)
   * [Media References](#media-references)
@@ -416,6 +417,9 @@ There was one error found, and it was a simple error that I had a % and px writt
 **Mobile Bookings page**
 
 ![Screenshot of lighthouse mobile audit - bookings page](documentation/lighthouse-mobile-booking-page.PNG)
+
+#### Bugs 
+* Upon removing the "disablepictureinpicture" atribute on my hero video, this causes the video to be able to be clickable and viewed in a pop out on some larger screen sizes. While removing this attribute means my code shows no errors, this is not how I would like for my video to display. The validation error stated that "the attribute could not be allowed on the element at this point". It may be a case that this code is unsupported at this time in my document.
 
 ### Credits
 #### Content and Code References
