@@ -381,12 +381,12 @@ The results of feature testing are as follows:
 
 ![Screenshot of w3c validation errors - index page](documentation/w3-validator-index-errors.PNG)
 
-This returned errors with my code where I had an extra icon tag in the header, and I had missed a closing tag on my a element for the Home navigation item. Once I fixed these errors, I checked my code for similar errors on my gallery and bookings pages and fixed these before rerunning the process. 
+This returned errors with my code where I had an extra icon tag, and missed a closing tag on an a element in the navigation. I fixed these errors & checked for similar errors on my gallery and bookings pages and fixed these before rerunning the process. 
 
 ![Screenshot of w3c validation errors - index page](documentation/w3-validator-index-errors-1.PNG)
 ![Screenshot of w3c validation errors - index page](documentation/w3-validator-index-errors-2.PNG)
 
-This time there was again some simple errors. I went back to my code and removed the disablepictureinpucture attribute on the video. I changed the error id’s to classes instead and renamed them to make more sense for their use. I removed the button element and added a class, that I applied my original styling to. I fixed the iframe issue on all pages before running the process again.
+Aagain there was some simple errors. I removed the disablepictureinpucture attribute on the video. I changed the error id’s to classes and renamed them to make more sense. I removed the button element and added a link & class class. I fixed the iframe issue on all pages before running the process again.
 
 ![Screenshot of w3c validation no errors - index page](documentation/w3-validator-index-no-errors.PNG)
 
@@ -400,7 +400,7 @@ I ran the validator again and it returned no issues.
 
 ![Screenshot of w3c validation errors - gallery page](documentation/w3-validator-gallery-errors.PNG)
 
-When I ran the validator on the Gallery page, it returned a heading issue. As the warning stated I could use a div instead, and I tried this however the issue didn’t resolve. I chose to add a heading to the gallery page and set its display to none to fix the issue.  
+The Gallery page showed a heading issue. I added a heading to the gallery page and set its display to none to fix the issue.  
 
 ![Screenshot of w3c validation errors - gallery page](documentation/w3-validator-gallery-no-error.PNG)
 
@@ -425,7 +425,7 @@ There were no issues on the bookings page.
 
 ![Screenshot of w3c validation css errors](documentation/w3-validator-css-errors.PNG)
 
-There was one css error found, and it was a simple error that I had a % and px written for an img element height value. This was an easy fix. When I ran validation again it returned no errors.
+There was one css error that I had a % and px written for an img element height value. This was an easy fix. When I ran validation again it returned no errors.
 
 ![Screenshot of w3c validation css no error](documentation/w3-css-no-error.PNG)
 </details>
