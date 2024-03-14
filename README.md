@@ -28,7 +28,7 @@ Users of this site can access all the information they need to know about Mindfu
   * [Desktop View](#desktop-view)
     * [Navbar](#navbar)
     * [Hero Video](#hero-video)
-    * [Mundfulness Quote](#mindfulness-quote)
+    * [Mindfulness Quote](#mindfulness-quote)
     * [Why Join Mindful Habit](#why-join-mindful-habit)
     * [Classes](#classes)
     * [CTA](#cta)
@@ -194,3 +194,91 @@ I used Font Joy to get a font pairing that I liked, 'Lato' and ‘Overlock. I us
 #### Imagery 
 
 It was important that the imagery used within the site showcased what Mindful Habits goal is for their users.  The hero section of the home page has a video of candles and an incense stick burning, with an overlay text, which capture the users attention, allowing them to pause for a moment before scrolling the rest of the page. The Classes section includes images of each technique in different settings, allowing the user to visually see the different classes Mindful Habit offers. The gallery section shows a variety of different women attending classes with Mindful Habit, as well as journal prompts evoking a positive feeling for the site users. All media used throughout Mindful Habit were sourced from pexels.com. Attributions to each photographer are placed in the Credits section of this README.
+
+### Page Feautres
+
+#### Desktop View
+##### Navbar
+
+![Screenshot of desktop navbar](documentation/desktop-navbar.PNG)
+
+The navbar remains the same on desktop, laptop, and tablet screen sizes, and becomes a hamburger icon for mobile screens.
+
+##### Hero Video
+
+![Screenshot of desktop hero video](documentation/desktop-hero-video.PNG)
+
+The hero video & background image remain the same across all devices, with the focus becoming centred on the incense stick on smaller screen sizes.
+
+##### Mindfulness Quote
+
+![Screenshot of desktop mindfulness quote](documentation/desktop-mindful-quote.PNG)
+
+The mindfulness quote has a soft white background centred on the screen, with its opacity set to 65% to allow the video to be seen through. This is the first block to have a box shadow around it, and this is continued down throughout the page with other sections. The quote was written in the same colour as sites primary colour as black was too harsh.
+
+##### Why Join Mindful Habit
+
+![Screenshot of desktop why join section](documentation/desktop-why-join-section.PNG)
+
+This small section of information is presented with another box shadow. The 4 teaching techniques are listed and styled with flex properties and added font weight to make them stand out from the rest of the text in this section.
+
+##### Classes 
+
+![Screenshot of desktop classes section 1](documentation/desktop-classes-1.PNG)
+![Screenshot of desktop classes section 2](documentation/desktop-classes-2.PNG)
+
+To ensure my site was responsive, I used Flexbox in my CSS styling for my Classes section. This section of my page is styled differently for each view. For mobile view, the classes are in a column, stacked one on top of the other. For tablet view, the classes are displayed in a row, with the information reversed on every second tile, one having the image to the right and the next with the image to the left and so on. For the Desktop view, the classes were back in columns with a wrap property to create a tiled format.  A large image is displayed of each technique followed by a brief explanation of the class, along with the time and location. 
+
+##### CTA
+
+![Screenshot of desktop CTA section](documentation/desktop-cta.PNG)
+
+The call to action section remains the same across all devices, with the headings and button centred. The button is styled in the primary colour with a box shadow of the secondary colour to emphasize it an encourage users to book.
+
+##### Contact Information
+
+![Screenshot of desktop contact info section](documentation/desktop-contact-section.PNG)
+
+There are 3 sections within the contact information section for users to get in touch with the business. A phone and email, the business address, and a Google Map pin drop. These sections are structured in a row format for desktop and tablet view, and switch to column format for mobile view. As the contact section was not given it’s own page, this section is placed on every page directly above the footer.
+The map width is smaller in desktop and tablet view to allow the address section be centred under the “get in touch with us” heading.
+
+##### Gallery 
+
+![Screenshot of desktop gallery page](documentation/desktop-gallery.PNG)
+
+The gallery is styled with masonry flexbox properties to add responsiveness across all device screen sizes.
+
+##### Bookings 
+
+![Screenshot of desktop bookings page](documentation/desktop-bookings.PNG)
+
+The booking form is placed to the left of the image to allow the sun to be a sub focus of the page on tablet and desktop. On mobile view the sun is directly behind the form.
+
+##### Footer
+
+![Screenshot of desktop footer](documentation/desktop-footer.PNG)
+
+
+The footer remains the same across all devices. It contains social media links for users to follow Mindful Habit’s social media accounts, and short paragraph, 2024 Mindful Habit, underneath.
+
+#### Tablet & Mobile View
+
+##### Tablet View
+| Index page | Classes Section |
+| ---| ---|
+| ![Screenshot of Mindful Habit tablet view - index page](documentation/tablet-view-home-page.PNG) | ![Screenshot of Mindful Habit tablet view - classes](documentation/tablet-view-classes.PNG) |
+| Gallery | Bookings |
+| ![Screenshot of Mindful Habit tablet view - gallery page](documentation/tablet-view-gallery.PNG) | ![Screenshot of Mindful Habit tablet view - bookings page](documentation/tablet-view-booking.PNG) |
+
+##### Mobile View
+| Index page | Navigation |
+| ---| ---| 
+| ![Screenshot of Mindful Habit mobile view - index page](documentation/mobile-hero-video.PNG) | ![Screenshot of Mindful Habit mobile view - navigation](documentation/Mobile-nav-menu.PNG) | 
+| Why Join | | Classes | 
+| ![Screenshot of Mindful Habit mobile view - why join](documentation/mobile-why-join.PNG) | ![Screenshot of Mindful Habit mobile view - classes section](documentation/mobile-classes.PNG) |
+| Contact & Footer | Gallery |
+| ![Screenshot of Mindful Habit mobile view - contact & footer](documentation/mobile-book-contact-footer.PNG) | ![Screenshot of Mindful Habit mobile view - gallery](documentation/mobile-gallery.PNG) |
+| Booking Page | |
+| ![Screenshot of Mindful Habit mobile view - booking page](documentation/mobile-bookings.PNG) |
+
+
