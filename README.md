@@ -140,13 +140,11 @@ Mindful Habit welcomes women of all ages to join classes, so a clutter free and 
 
 The mobile design for my home page has remained the same as my wireframe layout, with some slight changes to the navigation menu (removing links to the classes and contact sections), and small changes to the contact section. The gallery originally had images presented within a slider/carousel, however I chose to present the images in masonry style on the page using flexbox properties. The booking form layout is also slightly different to the original wireframe design.
 
-| Index page | Navigation |
-| ---| ---|
-| ![Screenshot of Mindful Habit mobile view wireframe - index page](documentation/wf_Mobile_hero_Section.PNG) | ![Screenshot of Mindful Habit mobile view wireframe - nav menu](documentation/wf_Mobile_Navigation_menu.PNG) |
-| Classes Section | Contact & Footer |
-| ![Screenshot of Mindful Habit mobile view wireframe - classes](documentation/wf_Mobile_Classes_Section.PNG) | ![Screenshot of Mindful Habit mobile view wireframe - contact & footer](documentation/wf_Mobile_Contact_Section_Footer.PNG) |
-| Gallery | Bookings |
-| ![Screenshot of Mindful Habit mobile view wireframe - gallery](documentation/wf_Mobile_Gallery.PNG) | ![Screenshot of Mindful Habit mobile view wireframe - booking form](documentation/wf_Mobile_Booking_Form.PNG) |
+| Index page | Navigation | Classes Section |
+| ---| ---| ---|
+| ![Screenshot of Mindful Habit mobile view wireframe - index page](documentation/wf_Mobile_hero_Section.PNG) | ![Screenshot of Mindful Habit mobile view wireframe - nav menu](documentation/wf_Mobile_Navigation_menu.PNG) | ![Screenshot of Mindful Habit mobile view wireframe - classes](documentation/wf_Mobile_Classes_Section.PNG) |
+| Contact & Footer | Gallery | Bookings |
+| ![Screenshot of Mindful Habit mobile view wireframe - contact & footer](documentation/wf_Mobile_Contact_Section_Footer.PNG) | ![Screenshot of Mindful Habit mobile view wireframe - gallery](documentation/wf_Mobile_Gallery.PNG) | ![Screenshot of Mindful Habit mobile view wireframe - booking form](documentation/wf_Mobile_Booking_Form.PNG) |
 
 
 
