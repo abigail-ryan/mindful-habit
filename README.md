@@ -8,7 +8,7 @@ Users of this site can access all the information they need to know about Mindfu
 
 ## Contents
 * [User Stories](#user-stories)
-  * [Primary Goal](primary-goal)
+  * [Primary Goal](#primary-goal)
   * [Visitor Goals](#visitor-goals)
   * [New User](#new-user)
   * [Return Visitor](#return-visitor)
@@ -86,7 +86,7 @@ Mindful Habits classes are for women of all ages, and it was a requirement that 
 * All return visitors can view the gallery page and see if they have featured in any of the class photos.
 * All return visitors can find social media links in the footer to follow and support Mindful Habit on their social media accounts.
 
-#### Site Admins
+#### Site Admin
 
 * I want to give users a brief introduction of what Mindful Habit does and who it is suitable for.
 * I want to add group classes to the site and update them easily.
@@ -392,20 +392,30 @@ There was one error found, and it was a simple error that I had a % and px writt
 
 #### Lighthouse scores using Chrome Dev Tools
 ##### Desktop
-**Index page**
-![Screenshot of lighthouse desktop audit - index page]()
-**Gallery page**
-![Screenshot of lighthouse desktop audit - gallery page]()
-**Bookings page**
-![Screenshot of lighthouse desktop audit - bookings page]()
+**Desktop Index page**
+
+![Screenshot of lighthouse desktop audit - index page](documentation/lighthouse-desktop-index-page.PNG)
+
+**Desktop Gallery page**
+
+![Screenshot of lighthouse desktop audit - gallery page](documentation/lighthouse-desktop-gallery-page.PNG)
+
+**Desktop Bookings page**
+
+![Screenshot of lighthouse desktop audit - bookings page](documentation/lighthouse-desktop-booking-page.PNG)
 
 ##### Mobile
-**Index page**
-![Screenshot of lighthouse mobile audit - index page]()
-**Gallery page**
-![Screenshot of lighthouse mobile audit - gallery page]()
-**Bookings page**
-![Screenshot of lighthouse mobile audit - bookings page]()
+**Mobile Index page**
+
+![Screenshot of lighthouse mobile audit - index page](documentation/lighthouse-mobile-index-page.PNG)
+
+**Mobile Gallery page**
+
+![Screenshot of lighthouse mobile audit - gallery page](documentation/lighthouse-mobile-gallery-page.PNG)
+
+**Mobile Bookings page**
+
+![Screenshot of lighthouse mobile audit - bookings page](documentation/lighthouse-mobile-booking-page.PNG)
 
 ### Credits
 #### Content and Code References
