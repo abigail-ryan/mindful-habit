@@ -420,7 +420,7 @@ There was one error found, and it was a simple error that I had a % and px writt
 *	Kera Cudmore - Creating your First README for README content structure and Markdown guidance.
 
 #### Media References
-*	Pexels for all media used on this site. Credit to the photographers: Bich Tran, Rui Dias, Andrea Piacquadio, Olia Danilevich.
+*	Pexels for all media used on this site. Credit to the photographers: Bich Tran, Rui Dias, Andrea Piacquadio, Olia Danilevich, Felix Young, Gustavo Fring, Kampus Production, Koolshooters, frstudio, Roma Odinstov.
 *	Font Awesome for the icons used in the header, contact section and footer of this site.
 *	Favicon for the favicon used for this site.
 *	Google Maps for the map used on this site.
