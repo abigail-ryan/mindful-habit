@@ -322,13 +322,13 @@ ___
 * CSS
 
 #### Frameworks, Libraries, Technologies and Programs Used
-* Uizard - used to create wireframes and view colour scheme
+* [Uizard](https://uizard.io/) - used to create wireframes and view colour scheme
 *	Git - used for version control
 *	GitHub - used to save and store all files for this website
 *	Google Fonts – used to import fonts for this site
 *	Font Awesome - all icons used in this site icons were downloaded from here
 *	Canva Colour – used for colour palette inspiration
-*	Favicon.io – for the through bubble favicon
+*	Favicon.io – for the thought bubble favicon
 *	Tiny PNG - used to compress images
 *	Google Dev Tools – used to test responsiveness and to debug
 *	Google Lighthouse - for testing overall performance and accessibility of the site
@@ -485,22 +485,22 @@ ___
 ### Credits
 #### Content and Code References
 *	All written content on Mindful Habit has been written by me and is purely for educational purposes only. 
-*	GoodReads for the mindfulness quote.
-*	Code Institute for the HTML/CSS learning material.
-*	Mullaney.com for the hero video code and sytling.
-* Canva Colours for the color palette inspiration.
-*	Tiny.png for compressing image files.
-* Google fonts for the fonts used in this site.
-*	CSS Tricks for adaptive home screen and gallery layout with flexbox.
-*	MND Web Docs for box shadow styling.
-*	codepen.io for styling a link as a button.
-*	Kera Cudmore - Creating your First README for README content structure and Markdown language guidance.
+*	[GoodReads](https://www.goodreads.com/quotes/1242965-life-is-a-dance-mindfulness-is-witnessing-that-dance) for the mindfulness quote.
+*	[Code Institute](https://codeinstitute.net/ie/) for the HTML/CSS learning material.
+*	[Mullaney.com](https://www.munnelly.com/webdesign/exercises/hero-block-video) for the hero video code and sytling.
+* [Canva Colours](https://www.canva.com/colors/color-palettes/inner-glow/) for the color palette inspiration.
+*	[Tiny.png](https://tinypng.com/) for compressing image files.
+* [Google fonts](https://fonts.google.com/) for the fonts used in this site.
+*	[CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) for adaptive home screen and gallery layout with flexbox.
+*	[MND Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) for box shadow styling.
+*	[Codepen.io](https://codepen.io/jessica-wilkins/pen/XWNyGBR) for styling a link as a button.
+*	[Kera Cudmore - Creating your First README](https://github.com/kera-cudmore/readme-examples) for README content structure and Markdown language guidance.
 
 #### Media References
-*	Pexels for all media used on this site. Credit to the photographers: Bich Tran, Rui Dias, Andrea Piacquadio, Olia Danilevich, Felix Young, Gustavo Fring, Kampus Production, Koolshooters, frstudio, Roma Odinstov.
-*	Font Awesome for the icons used in the header, contact section and footer of this site.
-*	Favicon for the favicon used for this site.
-*	Google Maps for the map used on this site.
+*	[Pexels](https://www.pexels.com/) for all media used on this site. Credit to the photographers: Bich Tran, Rui Dias, Andrea Piacquadio, Olia Danilevich, Felix Young, Gustavo Fring, Kampus Production, Koolshooters, frstudio, Roma Odinstov.
+*	[Font Awesome](https://fontawesome.com/) for the icons used in the header, contact section and footer of this site.
+*	[Favicon.io](https://favicon.io/) for the favicon used for this site.
+*	[Google Maps](https://www.google.com/maps) for the map used on this site.
 
 ___
 
