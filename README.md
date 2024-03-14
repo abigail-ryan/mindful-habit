@@ -281,4 +281,11 @@ The footer remains the same across all devices. It contains social media links f
 | Booking Page | |
 | ![Screenshot of Mindful Habit mobile view - booking page](documentation/mobile-bookings.PNG) |
 
+### Future Features
 
+For future development I would like to add:
+* A block-booking feature on the booking from page for frequent class attendees/members to be able to block-book classes ahead of time, rather than having to return to the site every day/week to book onto a class. I would like to include a payment gateway also.
+An account login feature where members can view a history of their bookings and their upcoming classes.
+* I would like to add a blog which features “This month’s favourites” – a selection of books and podcasts, that have inspired Mindful Habit each month.
+* A review section displaying previous class attendees’ testimonials on the effectiveness of Mindful Habit’s classes and techniques, which will help encourage future site visitors to book a class.
+* A newsletter sign-up section, inviting users to sign up to receive the “This month’s favourites” blog directly to their emails.
