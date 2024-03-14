@@ -269,13 +269,11 @@ The footer remains the same across all devices. It contains social media links f
 | ![Screenshot of Mindful Habit tablet view - gallery page](documentation/tablet-view-gallery.PNG) | ![Screenshot of Mindful Habit tablet view - bookings page](documentation/tablet-view-booking.PNG) |
 
 ##### Mobile View
-| Index page | Navigation |
-| ---| ---| 
-| ![Screenshot of Mindful Habit mobile view - index page](documentation/mobile-hero-video.PNG) | ![Screenshot of Mindful Habit mobile view - navigation](documentation/Mobile-nav-menu.PNG) | 
-| Why Join | | Classes | 
-| ![Screenshot of Mindful Habit mobile view - why join](documentation/mobile-why-join.PNG) | ![Screenshot of Mindful Habit mobile view - classes section](documentation/mobile-classes.PNG) |
-| Contact & Footer | Gallery |
-| ![Screenshot of Mindful Habit mobile view - contact & footer](documentation/mobile-book-contact-footer.PNG) | ![Screenshot of Mindful Habit mobile view - gallery](documentation/mobile-gallery.PNG) |
+| Index page | Navigation | Why Join |
+| ---| ---| ---|
+| ![Screenshot of Mindful Habit mobile view - index page](documentation/mobile-hero-video.PNG) | ![Screenshot of Mindful Habit mobile view - navigation](documentation/Mobile-nav-menu.PNG) | ![Screenshot of Mindful Habit mobile view - why join](documentation/mobile-why-join.PNG) |
+| Classes | Contact & Footer | Gallery |
+ ![Screenshot of Mindful Habit mobile view - classes section](documentation/mobile-classes.PNG) | ![Screenshot of Mindful Habit mobile view - contact & footer](documentation/mobile-book-contact-footer.PNG) | ![Screenshot of Mindful Habit mobile view - gallery](documentation/mobile-gallery.PNG) |
 | Booking Page | |
 | ![Screenshot of Mindful Habit mobile view - booking page](documentation/mobile-bookings.PNG) |
 
