@@ -61,7 +61,7 @@ Users of this site can access all the information they need to know about Mindfu
 * [Acknowledgements](#acknowledgements)     
          
  
-
+___
 
 
 ### User Stories
@@ -96,6 +96,8 @@ Mindful Habits classes are for women of all ages, and it was a requirement that 
 * I want to add contact information for users to be able to contact Mindful Habit easily.
 * I want users to be able to navigate the site easily.
 * I want to add a clear encouragement to users to join Mindful Habit’s classes.
+
+___
 
 ### UX Design
 
@@ -165,6 +167,8 @@ The wireframe desktop view of my sites home page classes section actually became
 * A quote “Life is a dance. Mindfulness is witnessing that dance” – Amit Ray, was used to promote what the site is about, being mindful in our every-day lives.
 * The background of the site was kept white, to keep the site clean and fresh looking, and to avoid any clutter. 
 
+___
+
 ### Design
 #### Color Scheme
 
@@ -193,6 +197,8 @@ I used Font Joy to get a font pairing that I liked, 'Lato' and ‘Overlock. I us
 #### Imagery 
 
 It was important that the imagery used within the site showcased what Mindful Habits goal is for their users.  The hero section of the home page has a video of candles and an incense stick burning, with an overlay text, which capture the users attention, allowing them to pause for a moment before scrolling the rest of the page. The Classes section includes images of each technique in different settings, allowing the user to visually see the different classes Mindful Habit offers. The gallery section shows a variety of different women attending classes with Mindful Habit, as well as journal prompts evoking a positive feeling for the site users. All media used throughout Mindful Habit were sourced from pexels.com. Attributions to each photographer are placed in the Credits section of this README.
+
+___
 
 ### Page Features
 
@@ -278,6 +284,8 @@ The footer remains the same across all devices. It contains social media links f
 | Booking Page | |
 | ![Screenshot of Mindful Habit mobile view - booking page](documentation/mobile-bookings.PNG) |
 
+___
+
 ### Future Features
 
 For future development I would like to add:
@@ -286,6 +294,8 @@ An account login feature where members can view a history of their bookings and 
 * I would like to add a blog which features “This month’s favourites” – a selection of books and podcasts, that have inspired Mindful Habit each month.
 * A review section displaying previous class attendees’ testimonials on the effectiveness of Mindful Habit’s classes and techniques, which will help encourage future site visitors to book a class.
 * A newsletter sign-up section, inviting users to sign up to receive the “This month’s favourites” blog directly to their emails.
+
+___
 
 ### Technologies Used
 #### Languages
@@ -305,6 +315,8 @@ An account login feature where members can view a history of their bookings and 
 *	Google Lighthouse - for testing overall performance and accessibility of the site
 *	W3C Validator - for validating my HTML and CSS code
 
+___
+
 ### Deployment
 GitHub was used to deploy the Mindful Habit website. 
 1.	Login to your GitHub account
@@ -314,6 +326,8 @@ GitHub was used to deploy the Mindful Habit website.
 5.	In the Source section, choose 'main' from the drop-down, select branch menu
 6.	Select 'root' from the drop-down folder menu
 7.	Click 'Save' and after a few minutes the project will be live and a link will be visible at the top of the page
+
+___
 
 ### Testing
 #### Manual Testing
@@ -421,6 +435,8 @@ There was one error found, and it was a simple error that I had a % and px writt
 #### Bugs 
 * Upon removing the "disablepictureinpicture" atribute on my hero video, this causes the video to be able to be clickable and viewed in a pop out on some larger screen sizes. While removing this attribute means my code shows no errors, this is not how I would like for my video to display. The validation error stated that "the attribute could not be allowed on the element at this point". It may be a case that this code is unsupported at this time in my document.
 
+___
+
 ### Credits
 #### Content and Code References
 *	All written content on Mindful Habit has been written by me and is purely for educational purposes only. 
@@ -441,6 +457,7 @@ There was one error found, and it was a simple error that I had a % and px writt
 *	Favicon for the favicon used for this site.
 *	Google Maps for the map used on this site.
 
+___
 
 ### Acknowledgements
 
