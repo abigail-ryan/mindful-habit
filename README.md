@@ -134,6 +134,30 @@ Mindful Habit welcomes women of all ages to join classes, so a clutter free and 
 * As a video is to be used for the hero section, a similar background image will be used used to display when networks speeds may be slower.
 * The footer will appear on all pages, with links to Mindful Habit’s social media accounts.
 
+#### Wireframes
 
+**Mobile**
+
+The mobile design for my home page has remained the same as my wireframe layout, with some slight changes to the navigation menu (removing links to the classes and contact sections), and small changes to the contact section. The gallery originally had images presented within a slider/carousel, however I chose to present the images in masonry style on the page using flexbox properties. The booking form layout is also slightly different to the original wireframe design.
+
+| Index page | Navigation |
+| ---| ---|
+| ![Screenshot of Mindful Habit mobile view wireframe - index page](documentation/wf_Mobile_hero_Section.PNG) | ![Screenshot of Mindful Habit mobile view wireframe - nav menu](documentation/wf_Mobile_Navigation_menu.PNG) |
+| Classes Section | Contact & Footer |
+| ![Screenshot of Mindful Habit mobile view wireframe - classes](documentation/wf_Mobile_Classes_Section.PNG) | ![Screenshot of Mindful Habit mobile view wireframe - contact & footer](documentation/wf_Mobile_Contact_Section_Footer.PNG) |
+| Gallery | Bookings |
+| ![Screenshot of Mindful Habit mobile view wireframe - gallery](documentation/wf_Mobile_Gallery.PNG) | ![Screenshot of Mindful Habit mobile view wireframe - booking form](documentation/wf_Mobile_Booking_Form.PNG) |
+
+
+
+**Desktop**
+
+The wireframe desktop view of my sites home page classes section actually became the layout for tablet view. Due to the short description of each of the classes, the original layout did not look good as there was not enough text to fill the space on much wider screen sizes, so I added another layout for desktop view with flexbox properties. The booking form is now positioned to the left instead of the right, to allow the background image to be seen.
+
+![Screenshot of Mindful Habit desktop view wireframe - index page](documentation/wf_Desktop_Header_Section.PNG)
+![Screenshot of Mindful Habit desktop view wireframe - classes section](documentation/wf_Desktop_Classes_Section.PNG)
+![Screenshot of Mindful Habit desktop view wireframe - contact & footer](documentation/wf_Desktop_Contact_Footer_sections.PNG)
+![Screenshot of Mindful Habit desktop view wireframe - gallery](documentation/wf_Desktop_Gallery.PNG)
+![Screenshot of Mindful Habit desktop view wireframe - bookings form page](documentation/wf_Desktop_Booking_form.PNG)
 
 
