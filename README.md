@@ -139,8 +139,9 @@ Mindful Habit welcomes women of all ages to join classes, so a clutter free and 
 
 #### Wireframes
 
-**Mobile**
-
+<details>
+<summary>Mobile</summary>
+<br>
 The mobile design for my home page has remained the same as my wireframe layout, with some slight changes to the navigation menu (removing links to the classes and contact sections), and small changes to the contact section. The gallery originally had images presented within a slider/carousel, however I chose to present the images in masonry style on the page using flexbox properties. The booking form layout is also slightly different to the original wireframe design.
 
 | Index page | Navigation | Classes Section |
@@ -148,11 +149,12 @@ The mobile design for my home page has remained the same as my wireframe layout,
 | ![Screenshot of Mindful Habit mobile view wireframe - index page](documentation/wf_Mobile_hero_Section.PNG) | ![Screenshot of Mindful Habit mobile view wireframe - nav menu](documentation/wf_Mobile_Navigation_menu.PNG) | ![Screenshot of Mindful Habit mobile view wireframe - classes](documentation/wf_Mobile_Classes_Section.PNG) |
 | Contact & Footer | Gallery | Bookings |
 | ![Screenshot of Mindful Habit mobile view wireframe - contact & footer](documentation/wf_Mobile_Contact_Section_Footer.PNG) | ![Screenshot of Mindful Habit mobile view wireframe - gallery](documentation/wf_Mobile_Gallery.PNG) | ![Screenshot of Mindful Habit mobile view wireframe - booking form](documentation/wf_Mobile_Booking_Form.PNG) |
+</details>
 
 
-
-**Desktop**
-
+<details>
+<summary>Desktop</summary>
+<br>
 The wireframe desktop view of my sites home page classes section actually became the layout for tablet view. Due to the short description of each of the classes, the original layout did not look good as there was not enough text to fill the space on much wider screen sizes, so I added another layout for desktop view with flexbox properties. The booking form is now positioned to the left instead of the right, to allow the background image to be seen.
 
 ![Screenshot of Mindful Habit desktop view wireframe - index page](documentation/wf_Desktop_Header_Section.PNG)
@@ -160,6 +162,7 @@ The wireframe desktop view of my sites home page classes section actually became
 ![Screenshot of Mindful Habit desktop view wireframe - contact & footer](documentation/wf_Desktop_Contact_Footer_sections.PNG)
 ![Screenshot of Mindful Habit desktop view wireframe - gallery](documentation/wf_Desktop_Gallery.PNG)
 ![Screenshot of Mindful Habit desktop view wireframe - bookings form page](documentation/wf_Desktop_Booking_form.PNG)
+</details>
 
 #### Surface 
 
@@ -269,13 +272,22 @@ The footer remains the same across all devices. It contains social media links f
 #### Tablet and Mobile View
 
 ##### Tablet View
+<details>
+<summary>Tablet View</summary>
+<br>
+
 | Index page | Classes Section |
 | ---| ---|
 | ![Screenshot of Mindful Habit tablet view - index page](documentation/tablet-view-home-page.PNG) | ![Screenshot of Mindful Habit tablet view - classes](documentation/tablet-view-classes.PNG) |
 | Gallery | Bookings |
 | ![Screenshot of Mindful Habit tablet view - gallery page](documentation/tablet-view-gallery.PNG) | ![Screenshot of Mindful Habit tablet view - bookings page](documentation/tablet-view-booking.PNG) |
+</details>
 
 ##### Mobile View
+<details>
+<summary>Mobile View</summary>
+<br>
+
 | Index page | Navigation | Why Join |
 | ---| ---| ---|
 | ![Screenshot of Mindful Habit mobile view - index page](documentation/mobile-hero-video.PNG) | ![Screenshot of Mindful Habit mobile view - navigation](documentation/Mobile-nav-menu.PNG) | ![Screenshot of Mindful Habit mobile view - why join](documentation/mobile-why-join.PNG) |
@@ -283,7 +295,7 @@ The footer remains the same across all devices. It contains social media links f
  ![Screenshot of Mindful Habit mobile view - classes section](documentation/mobile-classes.PNG) | ![Screenshot of Mindful Habit mobile view - contact & footer](documentation/mobile-book-contact-footer.PNG) | ![Screenshot of Mindful Habit mobile view - gallery](documentation/mobile-gallery.PNG) |
 | Booking Page | |
 | ![Screenshot of Mindful Habit mobile view - booking page](documentation/mobile-bookings.PNG) |
-
+</details>
 ___
 
 ### Future Features
@@ -365,7 +377,11 @@ The results of feature testing are as follows:
 
 #### HTML Validation using W3C Validation
 ##### Index Page
-**Mindful Habit - Index page HTML validation**
+
+<details>
+<summary>Mindful Habit - Index page HTML validation</summary>
+<br>
+
 ![Screenshot of w3c validation errors - index page](documentation/w3-validator-index-errors.PNG)
 
 This returned errors with my code where I had an extra icon tag in the header, and I had missed a closing tag on my a element for the Home navigation item. Once I fixed these errors, I checked my code for similar errors on my gallery and bookings pages and fixed these before rerunning the process. 
@@ -378,9 +394,12 @@ This time there was again some simple errors. I went back to my code and removed
 ![Screenshot of w3c validation no errors - index page](documentation/w3-validator-index-no-errors.PNG)
 
 I ran the validator again and it returned no issues.
+</details>
 
 ##### Gallery Page
-**Mindful Habit - Gallery page HTML validation**
+<details>
+<summary>Mindful Habit - Gallery page HTML validation</summary>
+<br>
 
 ![Screenshot of w3c validation errors - gallery page](documentation/w3-validator-gallery-errors.PNG)
 
@@ -389,24 +408,36 @@ When I ran the validator on the Gallery page, it returned a heading issue. As th
 ![Screenshot of w3c validation errors - gallery page](documentation/w3-validator-gallery-no-error.PNG)
 
 I ran the validator again and it returned no issues.
+</details>
 
 ##### Bookings Page
-**Mindful Habit - Bookings page HTML validation**
+<details>
+<summary>Mindful Habit - Bookings page HTML validation</summary>
+<br>
+
 
 ![Screenshot of w3c validation no errors - booking page](documentation/w3-validator-bookings-no-error.PNG)
 
 There were no issues on the bookings page.
+</details>
 
 #### CSS Validation using W3C Validation
-**Mindful Habit - CSS validation**
+<details>
+<summary>Mindful Habit - CSS validation</summary>
+<br>
+
 ![Screenshot of w3c validation css errors](documentation/w3-validator-css-errors.PNG)
 
 There was one css error found, and it was a simple error that I had a % and px written for an img element height value. This was an easy fix. When I ran validation again it returned no errors.
 
 ![Screenshot of w3c validation css no error](documentation/w3-css-no-error.PNG)
+</details>
 
 #### Lighthouse scores using Chrome Dev Tools
 ##### Desktop
+<details>
+<summary>Desktop</summary>
+<br>
 **Desktop Index page**
 
 ![Screenshot of lighthouse desktop audit - index page](documentation/lighthouse-desktop-index-page.PNG)
@@ -418,8 +449,13 @@ There was one css error found, and it was a simple error that I had a % and px w
 **Desktop Bookings page**
 
 ![Screenshot of lighthouse desktop audit - bookings page](documentation/lighthouse-desktop-booking-page.PNG)
+</details>
 
 ##### Mobile
+<details>
+<summary>Mobile</summary>
+<br>
+
 **Mobile Index page**
 
 ![Screenshot of lighthouse mobile audit - index page](documentation/lighthouse-mobile-index-page.PNG)
@@ -431,6 +467,7 @@ There was one css error found, and it was a simple error that I had a % and px w
 **Mobile Bookings page**
 
 ![Screenshot of lighthouse mobile audit - bookings page](documentation/lighthouse-mobile-booking-page.PNG)
+</details>
 
 #### Bugs 
 * Upon removing the "disablepictureinpicture" atribute on my hero video, this causes the video to be able to be clickable and viewed in a pop out on some larger screen sizes. While removing this attribute means my code shows no errors, this is not how I would like for my video to display. The validation error stated that "the attribute could not be allowed on the element at this point". It may be a case that this code is unsupported at this time in my document.
