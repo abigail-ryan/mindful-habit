@@ -55,7 +55,7 @@ Users of this site can access all the information they need to know about Mindfu
     * [Desktop](#desktop) 
     * [Mobile](#mobile)
 * [Credits](#credits)
-  * [Content & Code References](#content-and-code-references)
+  * [Content and Code References](#content-and-code-references)
   * [Media References](#media-references)
 * [Acknowledgements](#acknowledgements)     
          
@@ -397,3 +397,29 @@ There was one error found, and it was a simple error that I had a % and px writt
 #### Lighthouse scores using Chrome Dev Tools
 ##### Desktop
 ##### Mobile
+
+### Credits
+#### Content and Code References
+*	All written content on Mindful Habit has been written by me and is purely for educational purposes only. 
+*	GoodReads – for the mindfulness quote.
+*	Code Institute for the HTML/CSS learning material.
+*	Mullaney.com for the hero video code and sytling
+*	Tiny.png for compressing image files.
+*	CSS Tricks for adaptive home screen and gallery layout with flexbox.
+*	MND Web Docs for box shadow styling
+*	codepen.io for styling a link as a button.
+*	Kera Cudmore - Creating your First README for README content structure and Markdown guidance.
+
+#### Media References
+*	Pexels for all media used on this site. Credit to the photographers: Bich Tran, Rui Dias, Andrea Piacquadio, Olia Danilevich.
+*	Font Awesome for the icons used in the header, contact section and footer of this site.
+*	Favicon for the favicon used for this site.
+*	Google Maps for the map used on this site.
+
+
+### Acknowledgements
+
+I would like to thank the following:
+*	My mentor, Mitko Bachvarov, for his time, help and guidance throughout this project.
+*	My C.I. Cohort Facilitator, Amy Richardson, also for her guidance and for checking in along the way.
+*	My family for their help testing my project and offering feedback.
