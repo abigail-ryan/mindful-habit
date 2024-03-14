@@ -177,9 +177,14 @@ ___
 
 The idea that Mindful Habit would instil a sense of peace and calm within the users of the site was an important aspect when choosing a colour palette. My colour scheme was inspired by sunsets, and the contrast between the dark blue-purple tones and bright orange and yellows all blending together in the sky, capturing our attention for those few moments. I researched the theory of colour and the psychological effects on emotions, and found information on 'Very Well Mind' referencing a study from 2020 that showed the emotional associations with certain colours.
 
+
 ![Screenshot of Very Well Mind site - psychology of colour](documentation/phychology_of_color.png)
 
 I chose White to represent relief, Purple to represent pleasure, and Orange to represent joy. Through Canva Colours, I searched for palettes to align with these colors & found the Inner Glow colour combination. The image used here reminded me of a lotus flower, which is a symbol often used within mindfulness, and the symbol I used for the logo of Mindful Habit. 
+
+<details>
+<summary>Color Palette</summary>
+<br>
 
 ![Screenshot of Canva colour inspiration](documentation/Inner_glow_colour_inspo.PNG)
 
@@ -190,6 +195,7 @@ I chose to use Amber & Purple, as these were the strongest colours, and I paired
 I originally chose Amber as my primary colour, and applied it to my design within Uizard after creating my wireframes. However I quickly realised there would be accessibility issues due to the lack of contrast between the Amber background colour and White text. I chose to change to Purple as my primary colour instead and use Amber as my secondary colour for different elements throughout the site.
 
 ![Screenshot of design test with color scheme implemented](documentation/MH_color_palette_test.png)
+</details>
 
 #### Typography
 
