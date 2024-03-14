@@ -302,6 +302,7 @@ The footer remains the same across all devices. It contains social media links f
 | Booking Page | |
 | ![Screenshot of Mindful Habit mobile view - booking page](documentation/mobile-bookings.PNG) |
 </details>
+
 ___
 
 ### Future Features
