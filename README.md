@@ -19,7 +19,7 @@ Users of this site can access all the information they need to know about Mindfu
   * [Structure](#structure)
   * [Skeleton](#skeleton)
     * [Wireframes](#wireframes)
-  * [Structure](#structure)
+  * [Surface](#surface)
 * [Design](#design)
   * [Color Scheme](#color-scheme)
   * [Typography](#typography)
@@ -36,13 +36,13 @@ Users of this site can access all the information they need to know about Mindfu
     * [Gallery](#gallery)
     * [Bookings](#bookings)
     * [Footer](#footer)
-  * [Tablet & Mobile View](#tablet-and-mobile-view)
+  * [Tablet and Mobile View](#tablet-and-mobile-view)
     * [Tablet View](#tablet-view)
     * [Mobile view](#mobile-view)
  * [Future Features](#future-features)
  * [Technologies Used](#technologies-used)
    * [Languages](#languages)
-   * [Frameworks, Libraries, Technologies & Programs used](#framworks-librabies-technologies-and-programs-used)
+   * [Frameworks, Libraries, Technologies and Programs used](#frameworks-libraries-technologies-and-programs-used)
 * [Deployment](#deployment)
 * [Testing](#testing)
   * [Manual Testing](#manual-testing)
@@ -118,7 +118,7 @@ Mindful Habit welcomes women of all ages to join classes, so a clutter free and 
 * A clear call to action must be visible on the home page encouraging users to book a class.
 * A booking form must collect a first and last name, email address and an option to choose 1 of the 4 classes to attend. The form must request the user to fill in each field, and give feedback that their form has been sent.
 
-#### Structural
+#### Structure
 
 * The original navigation menu was to include links to the Classes and Contact sections of the home page, however, I chose to remove these as they do not have their own pages, and to make the menu more clear. 
 * The classes information is to be displayed in separate tiles, in vertical rows on mobile devices, and horizontal rows on tablet and desktop devices, each separated by a border.
@@ -193,7 +193,7 @@ I used Font Joy to get a font pairing that I liked, 'Lato' and ‘Overlock. I us
 
 It was important that the imagery used within the site showcased what Mindful Habits goal is for their users.  The hero section of the home page has a video of candles and an incense stick burning, with an overlay text, which capture the users attention, allowing them to pause for a moment before scrolling the rest of the page. The Classes section includes images of each technique in different settings, allowing the user to visually see the different classes Mindful Habit offers. The gallery section shows a variety of different women attending classes with Mindful Habit, as well as journal prompts evoking a positive feeling for the site users. All media used throughout Mindful Habit were sourced from pexels.com. Attributions to each photographer are placed in the Credits section of this README.
 
-### Page Feautres
+### Page Features
 
 #### Desktop View
 ##### Navbar
@@ -259,7 +259,7 @@ The booking form is placed to the left of the image to allow the sun to be a sub
 
 The footer remains the same across all devices. It contains social media links for users to follow Mindful Habit’s social media accounts, and short paragraph, 2024 Mindful Habit, underneath.
 
-#### Tablet & Mobile View
+#### Tablet and Mobile View
 
 ##### Tablet View
 | Index page | Classes Section |
@@ -291,7 +291,7 @@ An account login feature where members can view a history of their bookings and 
 * HTML
 * CSS
 
-#### Frameworks, Libraries, Technologies & Programs Used
+#### Frameworks, Libraries, Technologies and Programs Used
 * Uizard - used to create wireframes and view colour scheme
 *	Git - used for version control
 *	GitHub - used to save and store all files for this website
