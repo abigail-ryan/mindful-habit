@@ -289,3 +289,33 @@ An account login feature where members can view a history of their bookings and 
 * I would like to add a blog which features “This month’s favourites” – a selection of books and podcasts, that have inspired Mindful Habit each month.
 * A review section displaying previous class attendees’ testimonials on the effectiveness of Mindful Habit’s classes and techniques, which will help encourage future site visitors to book a class.
 * A newsletter sign-up section, inviting users to sign up to receive the “This month’s favourites” blog directly to their emails.
+
+### Technologies Used
+#### Languages
+* HTML
+* CSS
+
+#### Frameworks, Libraries, Technologies & Programs Used
+* Uizard - used to create wireframes and view colour scheme
+*	Git - used for version control
+*	GitHub - used to save and store all files for this website
+*	Google Fonts – used to import fonts for this site
+*	Font Awesome -all icons used in this site icons were downloaded from here
+*	Canva Colour – used for colour palette inspiration
+*	Favicon.io – for the through bubble favicon
+*	Tiny PNG - used to compress images
+*	Google Dev Tools – used to test responsiveness and to debug
+*	Google Lighthouse - for testing overall performance and accessibility of the site
+*	W3C Validator - for validating my HTML and CSS code
+
+### Deployment
+GitHub was used to deploy the Mindful Habit website. 
+1.	Login to your GitHub account
+2.	Navigate to the project repository, mindful_habit
+3.	Click the Settings button near the top of the page.
+4.	On the left-hand side, click on the Pages button
+5.	In the Source section, choose 'main' from the drop-down, select branch menu
+6.	Select 'root' from the drop-down folder menu
+7.	Click 'Save' and after a few minutes the project will be live and a link will be visible at the top of the page
+
+
