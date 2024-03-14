@@ -392,7 +392,20 @@ There was one error found, and it was a simple error that I had a % and px writt
 
 #### Lighthouse scores using Chrome Dev Tools
 ##### Desktop
+**Index page**
+![Screenshot of lighthouse desktop audit - index page]()
+**Gallery page**
+![Screenshot of lighthouse desktop audit - gallery page]()
+**Bookings page**
+![Screenshot of lighthouse desktop audit - bookings page]()
+
 ##### Mobile
+**Index page**
+![Screenshot of lighthouse mobile audit - index page]()
+**Gallery page**
+![Screenshot of lighthouse mobile audit - gallery page]()
+**Bookings page**
+![Screenshot of lighthouse mobile audit - bookings page]()
 
 ### Credits
 #### Content and Code References
